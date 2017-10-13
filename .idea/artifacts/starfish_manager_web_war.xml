@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="starfish-manager-web:war">
+    <output-path>$PROJECT_DIR$/starfish-manager/starfish-manager-web/target</output-path>
+    <root id="archive" name="starfish-manager-web.war">
+      <element id="artifact" artifact-name="starfish-manager-web:war exploded" />
+    </root>
+  </artifact>
+</component>
