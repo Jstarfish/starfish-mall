@@ -1,1 +1,11 @@
-priv\starfish\App.class
+priv\starfish\dao\TbContentCategoryMapper.class
+priv\starfish\dao\TbContentMapper.class
+priv\starfish\dao\TbItemMapper.class
+priv\starfish\dao\TbItemDescMapper.class
+priv\starfish\dao\TbOrderShippingMapper.class
+priv\starfish\dao\TbOrderItemMapper.class
+priv\starfish\dao\TbUserMapper.class
+priv\starfish\dao\TbItemCatMapper.class
+priv\starfish\dao\TbItemParamMapper.class
+priv\starfish\dao\TbOrderMapper.class
+priv\starfish\dao\TbItemParamItemMapper.class

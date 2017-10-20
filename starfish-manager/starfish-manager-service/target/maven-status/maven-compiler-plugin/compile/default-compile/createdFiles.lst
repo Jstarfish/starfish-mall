@@ -1,1 +1,6 @@
-priv\starfish\App.class
+priv\starfish\service\ItemCatService.class
+priv\starfish\service\PictureService.class
+priv\starfish\service\ItemService.class
+priv\starfish\service\impl\ItemCatServiceImpl.class
+priv\starfish\service\impl\ItemServiceImpl.class
+priv\starfish\service\impl\PictureServiceImpl.class

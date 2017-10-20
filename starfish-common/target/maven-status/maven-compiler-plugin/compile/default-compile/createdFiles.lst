@@ -1,1 +1,8 @@
-priv\starfish\App.class
+priv\starfish\common\utils\HttpClientUtil.class
+priv\starfish\common\utils\IDUtils.class
+priv\starfish\common\utils\CookieUtils.class
+priv\starfish\common\pojo\EUDataGridResult.class
+priv\starfish\common\utils\ExceptionUtil.class
+priv\starfish\common\pojo\TaotaoResult.class
+priv\starfish\common\utils\JsonUtils.class
+priv\starfish\common\pojo\EUTreeNode.class
