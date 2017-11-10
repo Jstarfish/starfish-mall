@@ -84,9 +84,9 @@ public class TaotaoResult {
 
     /**
      * 将json结果集转化为TaotaoResult对象
-     * 
+     *
      * @param jsonData json数据
-     * @param clazz TaotaoResult中的object类型
+     * @param clazz    TaotaoResult中的object类型
      * @return
      */
     public static TaotaoResult formatToPojo(String jsonData, Class<?> clazz) {
@@ -112,7 +112,7 @@ public class TaotaoResult {
 
     /**
      * 没有object对象的转化
-     * 
+     *
      * @param json
      * @return
      */
@@ -127,9 +127,9 @@ public class TaotaoResult {
 
     /**
      * Object是集合转化
-     * 
+     *
      * @param jsonData json数据
-     * @param clazz 集合中的类型
+     * @param clazz    集合中的类型
      * @return
      */
     public static TaotaoResult formatToList(String jsonData, Class<?> clazz) {

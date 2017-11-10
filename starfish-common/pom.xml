@@ -33,6 +33,7 @@
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-io</artifactId>
         </dependency>
+        <!-- 图片上传相关的-->
         <dependency>
             <groupId>commons-net</groupId>
             <artifactId>commons-net</artifactId>
