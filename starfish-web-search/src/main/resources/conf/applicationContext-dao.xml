@@ -28,7 +28,7 @@
 		<property name="mapperLocations" value="classpath:priv/starfish/mapper/*.xml,priv/starfish/search/mapper/ItemMapper.xml" />
 	</bean>
 
-	<!-- 配置扫描包，加载mapper代理对象 扫描的是dao，不是mapper ,还需要扫描search项目的，逗号分隔-->
+	<!-- 配置扫描包，加载mapper代理对象 扫描的是接口，不是xml ,还需要扫描search项目的，逗号分隔-->
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
 		<property name="basePackage" value="priv.starfish.dao,priv.starfish.search.mapper"></property>
 	</bean>

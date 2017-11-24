@@ -28,6 +28,7 @@
 			tb_item a
 		LEFT JOIN tb_item_cat b ON a.cid = b.id
 		LEFT JOIN tb_item_desc c ON a.id = c.item_id
+		 WHERE a.`status`=1
 	</select>
 
 </mapper>

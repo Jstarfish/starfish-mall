@@ -33,11 +33,13 @@ public class SearchServiceImpl implements SearchService {
 			String json = HttpClientUtil.doGet(SEARCH_BASE_URL, param);
 			//把字符串转换成java对象
 			TaotaoResult taotaoResult = TaotaoResult.formatToPojo(json, SearchResult.class);
-			if (taotaoResult.getStatus() == 200) {
-				SearchResult result = (SearchResult) taotaoResult.getData();
-				return result;
+			if(taotaoResult != null){
+				if (taotaoResult.getStatus() == 200) {
+					SearchResult result = (SearchResult) taotaoResult.getData();
+					return result;
+				}
 			}
-			
+
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

@@ -13,6 +13,7 @@ public class SearchResult {
     //当前页
     private long curPage;
 
+
     public List<Item> getItemList() {
         return itemList;
     }
